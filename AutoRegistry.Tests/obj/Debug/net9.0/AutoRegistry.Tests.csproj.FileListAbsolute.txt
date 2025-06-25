@@ -104,3 +104,4 @@
 /Users/endrit/Desktop/Proj/AutoRegistry.Tests/obj/Debug/net9.0/AutoRegistry.Tests.pdb
 /Users/endrit/Desktop/Proj/AutoRegistry.Tests/obj/Debug/net9.0/AutoRegistry.Tests.genruntimeconfig.cache
 /Users/endrit/Desktop/Proj/AutoRegistry.Tests/obj/Debug/net9.0/ref/AutoRegistry.Tests.dll
+/Users/endrit/Desktop/Proj/AutoRegistry.Tests/obj/Debug/net9.0/AutoRegistry.Tests.sourcelink.json

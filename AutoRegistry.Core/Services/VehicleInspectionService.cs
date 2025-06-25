@@ -16,18 +16,27 @@ namespace AutoRegistry.Core.Services
 
         public async Task<string> GetInspectionStatusAsync(Guid vehicleId)
         {
-            var inspection = await _repository.GetLatestInspectionAsync(vehicleId);
+            if (vehicleId == Guid.Empty)
+                throw new ArgumentException("Vehicle ID cannot be empty.", nameof(vehicleId));
 
-            if (inspection == null)
-                return "Vehicle not found";
+            try
+            {
+                var inspection = await _repository.GetLatestInspectionAsync(vehicleId);
+                if (inspection == null)
+                    return "Vehicle not found";
 
-            if (!inspection.Passed)
-                return $"Inspection failed – Reason: {inspection.FailureReason}";
+                if (!inspection.Passed)
+                    return $"Inspection failed: {inspection.FailureReason}";
 
-            if (inspection.ValidUntil < DateTime.UtcNow)
-                return $"Inspection expired on {inspection.ValidUntil?.ToShortDateString()}";
+                if (inspection.ValidUntil < DateTime.UtcNow)
+                    return $"Inspection expired on {inspection.ValidUntil?.ToShortDateString()}";
 
-            return $"Inspection passed – valid until {inspection.ValidUntil?.ToShortDateString()}";
+                return $"Inspection passed. Valid until {inspection.ValidUntil?.ToShortDateString()}";
+            }
+            catch (Exception)
+            {
+                return "Error retrieving inspection.";
+            }
         }
     }
 }

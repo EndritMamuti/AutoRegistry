@@ -9,3 +9,4 @@
 /Users/endrit/Desktop/Proj/AutoRegistry.Core/obj/Debug/net9.0/refint/AutoRegistry.Core.dll
 /Users/endrit/Desktop/Proj/AutoRegistry.Core/obj/Debug/net9.0/AutoRegistry.Core.pdb
 /Users/endrit/Desktop/Proj/AutoRegistry.Core/obj/Debug/net9.0/ref/AutoRegistry.Core.dll
+/Users/endrit/Desktop/Proj/AutoRegistry.Core/obj/Debug/net9.0/AutoRegistry.Core.sourcelink.json
