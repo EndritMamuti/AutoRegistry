@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "MI4qM90bYJXL/SnpE9nNoat1fkVmTVR8q22MQ1l+3Vs=",
+  "Source": "AutoRegistry.API",
+  "BasePath": "_content/AutoRegistry.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

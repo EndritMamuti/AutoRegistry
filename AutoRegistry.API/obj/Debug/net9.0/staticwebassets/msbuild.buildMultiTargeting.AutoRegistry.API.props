@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/AutoRegistry.API.props" />
+</Project>

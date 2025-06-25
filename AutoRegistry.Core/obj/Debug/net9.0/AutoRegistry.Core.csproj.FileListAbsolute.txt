@@ -1,0 +1,11 @@
+/Users/endrit/Desktop/Proj/AutoRegistry.Core/bin/Debug/net9.0/AutoRegistry.Core.deps.json
+/Users/endrit/Desktop/Proj/AutoRegistry.Core/bin/Debug/net9.0/AutoRegistry.Core.dll
+/Users/endrit/Desktop/Proj/AutoRegistry.Core/bin/Debug/net9.0/AutoRegistry.Core.pdb
+/Users/endrit/Desktop/Proj/AutoRegistry.Core/obj/Debug/net9.0/AutoRegistry.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/endrit/Desktop/Proj/AutoRegistry.Core/obj/Debug/net9.0/AutoRegistry.Core.AssemblyInfoInputs.cache
+/Users/endrit/Desktop/Proj/AutoRegistry.Core/obj/Debug/net9.0/AutoRegistry.Core.AssemblyInfo.cs
+/Users/endrit/Desktop/Proj/AutoRegistry.Core/obj/Debug/net9.0/AutoRegistry.Core.csproj.CoreCompileInputs.cache
+/Users/endrit/Desktop/Proj/AutoRegistry.Core/obj/Debug/net9.0/AutoRegistry.Core.dll
+/Users/endrit/Desktop/Proj/AutoRegistry.Core/obj/Debug/net9.0/refint/AutoRegistry.Core.dll
+/Users/endrit/Desktop/Proj/AutoRegistry.Core/obj/Debug/net9.0/AutoRegistry.Core.pdb
+/Users/endrit/Desktop/Proj/AutoRegistry.Core/obj/Debug/net9.0/ref/AutoRegistry.Core.dll
